@@ -21,7 +21,7 @@ a {
 /* Class Selectors ******************************************/
 .page {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 .page-footer{
     display: table-cell;
