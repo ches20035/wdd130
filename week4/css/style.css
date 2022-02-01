@@ -3,5 +3,21 @@ margin: 0;
 padding: 0;
 }
 body {
-background: color rgb(32, 44, 57);
+    background-color: rgb(242, 212, 146);
+    font-size: 16px;
+}
+header, footer {
+    background-color: rgb(242, 149, 89);
+    display: grid;
+    align-items: center;
+}
+a{
+    color:rgb(0, 0, 205);
+}
+
+
+/* Class Selectors ******************************************/
+.page {
+    max-width: 960px;
+    margin: 0 auto;
 }
