@@ -1,6 +1,7 @@
 * {
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 }
 body {
     background-color: rgb(242, 212, 146);
@@ -11,19 +12,26 @@ body {
 }
 header,
 footer {
-    background-color: rgb(242, 149, 89);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    line-height: normal;
+    border-bottom: 1px solid #ccc;
+    background-color: rgb(242, 149, 89);
 }
 a {
     color:rgb(0, 0, 205);
+    display: inline-block;
 }
-img {
-    box-shadow: 2px 2px 2px 1px black;
-  }
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
 
 /* Class Selectors ******************************************/
 .page {
@@ -33,7 +41,7 @@ img {
 }
 .page-footer{
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: center;
 }
 .page-footer {
     display:flex;
@@ -43,8 +51,10 @@ img {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
 }
-.box {
+.container {
+    width: 100%;
     margin: 4rem;
+    position: relative;
 }
