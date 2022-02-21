@@ -21,64 +21,88 @@
     width: 100px;
     height: 100px;
     background-color: gold;
+    display: grid;
+    grid-gap: 30px;
+    position: relative;
+    
   }
   .blue1 {
     width: 100%;
-    height: 100%;
+    height: 100px;
     background-color: blue;
+    display: grid;
+    grid-column: 1/3;
   }
   /* Activity 2 Styles */
   .content2 {
-    /* Activity Two Container */
+  position: relative;
   }
   .red2 {
     width: 100px;
     height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
     background-color: red;
   }
   .green2 {
     width: 100px;
     height: 100px;
     background-color: green;
+    position: absolute;
+    top: 100px;
+    left: 150px;
   }
   .yellow2 {
     width: 100px;
     height: 100px;
     background-color: gold;
+    position: absolute;
+    top: 150px;
+    left: 200px;
   }
   .blue2 {
     width: 100px;
     height: 100px;
     background-color: blue;
-    grid-column: 1/3;
+    position: absolute;
+    top: 200px;
+    left: 250px;
   }
   /* Activity 3 Styles */
   .content3 {
-    /* Activity Three Container */
+    display: grid;
   }
   .red3 {
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: red;
+    grid-column: 1/3;
   }
   .green3 {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     background-color: green;
+
   }
   .yellow3 {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     background-color: gold;
+    position: relative;
+    left: 87px;
   }
   .blue3 {
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: blue;
+    grid-column: 1/3;
   }
   /* Activity 4 Styles */
   .content4 {
-    /* Activity Four Container */
+    display: grid;
+    grid-row: 3;
+    grid-template-columns: 1fr, 1fr;
     height: 400px;
   }
   .red4 {
@@ -107,11 +131,25 @@
     height: 400px;
   }
   .red5 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+      width: 100%;
+      height: 100px;
+      background-color: red;
+      grid-column: 1/4;
+      grid-row: 1/2;
+  }
   }
   .green5 {
     width: 100px;
     height: 100px;
     background-color: green;
+  }
+  .yellow5{
+
+  }
+  .blue5{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
