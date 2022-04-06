@@ -1,65 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="animated fadeIn">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>L&C Music Academy</title>
+    <link rel="stylesheet" href="_css/animate.css">
+    <title class="sitetitle">L&C Music Academy</title>
 </head>
 
 <body>
-    <div class="content">
+    <div id="content">
         <header>
-            <div class="log-box">
-                <img class="logo" src="images/finalproject-mylogo.png">
-                <h1>L&C Music Academy</h1>
+            <div id="logo-box">
+                <img class="logo" src="images/finalproject-mylogo.png" alt="logo">
+                <h1 class="title">L&C Music Academy</h1>
             </div>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html"></a>About Us</li>
-            <li><a href="classes.html"></a>Classes</li>
-            <li><a href="register.html"></a>Register</li>
-        </ul>
-    </nav>
-    </header>
-    <main>
-        <div class="banner-box">
-            <img class="banner" src="images/musiclessonsfinal.jpg">
-            <div class="action">
-                <div class="Cta">Register Today!</div>
-                <button>Register</button>
+            <nav>
+                <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="banner-box">
+                <img class="banner" src="images/musiclessonsfinal.jpg" alt="banner">
+                <div class="home">L&C Music Academy</div>
             </div>
-        </div>
-        <div class="homecontent1">
-            <h2 class="homeheadline1">Do You Want To Learn A New Instrument?</h2>
-            <p class="homeparagraph1">
-                Here at L&C Music Academy we offer lessons for all ages at a low cost to you!
-                You can choose to learn the guitar, piano, voice, or ukulele.
-                We also offer a free trial lesson so you can be certain that
-                this is the right place for you. So what are you waiting for?
-                Register for your free trial today and save big!
-            </p>
-            <img class="homeleftimg" src="images/pianoteacher.jpg">
-        </div>
-        <div class="homecontent2">
-            <h2 class="homeheadline2">Here is my second heading</h2>
-            <p class="homeparagraph2">
-                Our staff is dedicated to your success! Our goal is to offer you 24/7 help
-                through our online platform.
-            </p>
-            <img class="homerightimg" src="images/guitarteacher.jpg">
-        </div>
-        <div class="homecontent3">
-            <h2 class="homeheadline3">Here is my last heading</h2>
-            <p class="homeparagraph3">
-                Here is where my last paragraph will go.
-            </p>
-        </div>
-    </main>
+            <div class="homecontent1">
+                <h2 class="homeheadline1">Do You Want To Learn A New Instrument?</h2>
+                <p class="homeparagraph1">
+                    Here at L&C Music Academy we offer lessons for all ages at a low cost to you!
+                    You can choose to learn the guitar, piano, voice, or ukulele.
+                    We also offer a free trial lesson so you can be certain that
+                    this is the right place for you. So what are you waiting for?
+                    Register for your free trial today and save big!
+                </p>
+                <div class="action">
+                    <button onclick="document.location='register.html'">Register Today!</button>
+                </div>
+                <img class="homeleftimg" src="images/pianoteacher.jpg" alt="piano teacher">
+            </div>
+            <div class="homecontent2">
+                <h2 class="homeheadline2">How We Stay in Touch with You</h2>
+                <p class="homeparagraph2">
+                    Our teachers offer classes both in-person and virtually. We do
+                    this to help ensure our students get the help they need. The
+                    student will also have access to our virtual classroom in Canvas.
+                    This will allow our students the ability to access songs, videos,
+                    books, announcements and other assigned material. They will also be able to
+                    access their teacher's virutal office on zoom. The student will also
+                    be able to contact their teacher via canvas message, email, and the ability
+                    to text or call their teacher anytime during the week. Learn more about
+                    what we offer at our academy by sending us a message or give us a call!
+                </p>
+                <img class="homerightimg" src="images/guitarteacher.jpg" alt="guitarteacher">
+            </div>
+            <div class="homecontent3">
+                <h2 class="homeheadline3">Concert Fun!</h2>
+                <p class="homeparagraph3">
+                    Here at L&C Music Academy we like to have fun! Twice a year during the Spring
+                    and Fall our staff will hold some fun concerts for the students to show what
+                    they have learned. The concerts are not mandatory but are highly encouraged by
+                    our teachers. The details of the concert will be given by the teachers at the
+                    appropriate time. Each student will have sufficient time to practice and feel
+                    comforatable with each of their songs.
+                </p>
+            </div>
+        </main>
+        <footer>
+            <div class="footer_container">
+                <p id="Copyright">&copy; 2022 L&C Music Academy - wdd130</p>
+                <div class="social">
+                    <a href="https://facebook.com/">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://twitter.com/">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="https://linkedin.com/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </footer>
 </body>
 
 </html>

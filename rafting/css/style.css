@@ -213,3 +213,10 @@ div.social {
     margin: 0 auto;
     padding: 1em;
 }
+
+div.social {
+    text-align: right;
+    width: 940px;
+    margin: 0 auto;
+    padding: 1em;
+}
