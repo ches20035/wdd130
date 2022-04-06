@@ -50,6 +50,12 @@
     font-size: 1.2em;
     border-color: blue;
     border-width: 4px;
+    border-radius: 50px;
+}
+
+.button {
+    border-radius: 50px;
+    margin-left: 8em;
 }
 
 .action button:hover {
@@ -212,20 +218,6 @@ form {
   textarea {
     vertical-align: top;
     height: 5em;
-  }
-  
-  .button {
-    padding-left: 90px;
-    
-  }
-  
-  button {
-    margin-left: .5em;
-    color: white;
-    background-color: black;
-    height: 30px;
-    border-radius: 50px;
-    font-weight: bold;
   }
   
   form {
