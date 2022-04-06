@@ -5,20 +5,33 @@
 
 .aboutcontent2 {
     color: white;
+    padding: 1em;
+    text-align: center;
+    float: 
+}
+
+.aboutcontent3 {
+    color: white;
+    float: right;
+    padding: 6em;
+}
+
+.aboutparagraph1 {
+    padding: 1em;
+}
+
+.aboutparagraph2 {
+    padding: 1em;
+}
+
+.aboutheadline1 {
     text-align: center;
 }
 
-.aboutheadline1 {}
-
-.aboutheadline2 {}
-
-.aboutparagraph1 {}
-
-.aboutparagraph2 {}
-
 .aboutimg {
-    float: left;
-    width: 30em;
+    width: 20em;
+    padding: 1em;
+
 }
 
 .action {
@@ -39,6 +52,18 @@
     border-width: 4px;
 }
 
+.action button:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: blue;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
 .banner-box {
     display: grid;
     grid-template-columns: 1fr;
@@ -51,7 +76,7 @@
 body {
     background-color: #f1e9db;
     font-size: 16px;
-    font-family: sans-seriff;
+    font-family:sans-serif;
     line-height: normal;
 }
 
@@ -104,8 +129,6 @@ body {
     color: #effafc;
 }
 
-div#logo-box {}
-
 footer {
     background-color: #5db7de;
     width: 100%;
@@ -138,7 +161,8 @@ footer {
 
 h1 {
     font-size: 30px;
-    color: white
+    color: black;
+    padding: 1em;
 }
 
 h2 {
@@ -152,7 +176,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     color: white;
 }
 
@@ -220,6 +244,7 @@ header {
     height: 20em;
     max-width: 100%;
     max-height: 100%;
+    padding: 2em;
 }
 
 .homerightimg {
@@ -232,6 +257,7 @@ header {
     text-align: center;
     color: white;
     grid-column: 1/6;
+    margin-top: -1em;
 }
 
 img {
@@ -250,14 +276,14 @@ nav {
 }
 
 nav a {
-    color: blue;
-    font-size: 25px;
+    color: black;
+    font-size: 20px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: black;
+    color: rgb(84, 81, 81);
     text-decoration: underline;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
