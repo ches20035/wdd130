@@ -141,6 +141,11 @@ footer {
     margin-top: 4em;
 }
 
+.form {
+    float: right;
+    width: 50em;
+}
+
 .guitarimg {
     height: 20em;
     max-width: 100%;
@@ -172,7 +177,6 @@ h2 {
     color: white;
 }
 
-h2,
 h3,
 h4,
 h5 {
@@ -323,6 +327,7 @@ p {
 
 .registercontent2 {
     color: white;
+    text-align: center;
 }
 
 .title {
